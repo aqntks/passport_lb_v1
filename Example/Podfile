@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'passport_lb_v1_Example' do
+  pod 'passport_lb_v1', :path => '../'
+
+  target 'passport_lb_v1_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
